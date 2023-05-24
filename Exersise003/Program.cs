@@ -1,7 +1,4 @@
 ﻿
-
-using System.ComponentModel;
-
 int GetRandom(int minValue, int maxValue)
 {
     return new Random().Next(minValue, maxValue + 1);
